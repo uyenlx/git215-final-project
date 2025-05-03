@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Thermalbad & Kur | Contact</title>
+  <meta name="author" content="Bao Uyen Le">
+  <meta name="description" content="Thermalbad and Kur offers curing treatments for the body, book with us today!">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Thermalbad & Kur</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#accomadations">Accomadations</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero-img">
+    <img src="images/swiss-valley.jpg" alt="Swiss valley" width="1140" height="560">
+  </div>
+
+  <main>
+    <section id="form">
+      <div id="form-text">
+        <h2>Contact Us</h2>
+        <p>
+          Please reach out to us with any questions or concerns.
+          We are happy to help you plan your dream vacation with us!
+          Required fields marked with a (<span class="required">*</span>).
+        </p>
+      </div>
+
+      <img src="images/swiss-sunset.jpg" alt="Sunset in Swiss valley" width="710" height="210">
+
+      <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+        <div class="form-left">
+          <label for="my-name">Full Name<span class="required">*</span></label>
+          <input type="text" name="my-name" id="my-name" required>
+
+          <label for="my-email">Email<span class="required">*</span></label>
+          <input type="email" name="my-email" id="my-email" required>
+
+          <label for="my-phone">Phone</label>
+          <input type="tel" name="my-phone" id="my-phone">
+
+          
+        </div>
+
+        <div class="form-right">
+            <fieldset>
+              <legend>Preferred Method of Contact</legend>
+              <div class="radio-group">
+                <label>
+                  <input type="radio" name="contact-pref" id="pref-email" value="email" checked>
+                  Email
+                </label>
+                <label>
+                  <input type="radio" name="contact-pref" id="pref-phone" value="phone">
+                  Phone
+                </label>
+              </div>
+            </fieldset>
+          
+            <label for="my-comments">Comments</label>
+            <textarea name="my-comments" id="my-comments"></textarea>
+          
+            <input type="submit" name="my-submit" id="my-submit" value="Submit Form">
+          </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy;2025 Thermalbad and Kur</p>
+    <p>This site is for educational purposes only</p>
+  </footer>
+</body>
+</html>
